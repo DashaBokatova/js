@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
+    let arr1 = [10, 200, 1000, 'abcd', 'asdqwe', 'xyz', true, false,[1, 2, 3], [500]]
+  console.log(arr1[0]);
+    console.log(arr1[1]);
+    console.log(arr1[2]);
+    console.log(arr1[3]);
+    console.log(arr1[4]);
+    console.log(arr1[5]);
+    console.log(arr1[6]);
+    console.log(arr1[7]);
+    console.log(arr1[8]);
+    console.log(arr1[9]);
+
+//Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre
+ let book1 = {
+     title: 'killerclub',
+     pageCount: 500,
+     genre: 'detektive'
+ };
+    let book2 = {
+        title: 'shine',
+        pageCount: 700,
+        genre: 'mystic'
+    };
+    let book3 = {
+        title: 'spartacus',
+        pageCount: 900,
+        genre: 'historical'
+    };
+    console.log(book1, book2,book3);
+
+//Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - масив. Кожен автор має поля name,age
+    let book11 = {
+        title: 'killerclub',
+        pageCount: 500,
+        genre: 'detektive',
+        authors:[{
+            name:'Igor',
+            age:55,
+        }]
+    }
+
+
+    let book22 = {
+        title: 'shine',
+        pageCount: 700,
+        genre: 'mystic',
+        authors: [{
+            name: 'Ivan',
+            age:77,
+        }]
+    }
+    let book33 = {
+        title: 'spartacus',
+        pageCount: 900,
+        genre: 'historical',
+        authors:[{
+            authors:'Oleg',
+            age:66,
+        }]
+
+    };
+    console.log(book11, book22,book33);
+
+    //Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
+
+    let user1 = {name:'vasia', username:'asdf1', password:1234};
+    let user2 = {name:'katia', username:'asdf12', password:56789};
+    let user3 = {name:'oleg', username:'asdf13', password:112233};
+    let user4 = {name:'vika', username:'asdf14', password:100500};
+    let user5 = {name:'misha', username:'asdf15', password:98765};
+    let user6 = {name:'dasha', username:'asdf16', password:200220};
+    let user7 = {name:'vania', username:'asdf17', password:4567899};
+    let user8 = {name:'masha', username:'asdf18', password:49830};
+    let user9 = {name:'vova', username:'asdf19', password:765898};
+    let user10 = {name:'ira', username:'asdf10', password:30009};
+
+    let users = [
+        user1,
+        user2,
+        user3,
+        user4,
+        user5,
+        user6,
+        user7,
+        user8,
+        user9,
+        user10
+    ];
+    console.log(users[0].password);
+    console.log(users[1].password);
+    console.log(users[2].password);
+    console.log(users[3].password);
+    console.log(users[4].password);
+    console.log(users[5].password);
+    console.log(users[6].password);
+    console.log(users[7].password);
+    console.log(users[8].password);
+    console.log(users[9].password);
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
